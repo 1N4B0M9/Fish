@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81178A7A185028C8821E7710 /* Pods_Fish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CEC630BA16CCA868692D5C /* Pods_Fish.framework */; };
 		CB1F13192978314A003353E5 /* FishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1F13182978314A003353E5 /* FishApp.swift */; };
 		CB1F131B2978314A003353E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1F131A2978314A003353E5 /* ContentView.swift */; };
 		CB1F131D2978314E003353E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1F131C2978314E003353E5 /* Assets.xcassets */; };
 		CB1F13202978314E003353E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1F131F2978314E003353E5 /* Preview Assets.xcassets */; };
+		CB1F132A29783219003353E5 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1F132929783219003353E5 /* Fetch.swift */; };
+		CBB70F6A299523C000BA88CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBB70F69299523C000BA88CC /* GoogleService-Info.plist */; };
+		CBB70F6D29952AB100BA88CC /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB70F6C29952AB100BA88CC /* constants.swift */; };
+		CBB70F6F29952AEE00BA88CC /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB70F6E29952AEE00BA88CC /* AuthenticationView.swift */; };
+		CBB70F7129952B8F00BA88CC /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB70F7029952B8F00BA88CC /* SignUp.swift */; };
+		CBB70F7329952BB200BA88CC /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB70F7229952BB200BA88CC /* UserInfo.swift */; };
+		CBB70F7529952C7B00BA88CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB70F7429952C7B00BA88CC /* LoginView.swift */; };
+		CBB70F7729952C9600BA88CC /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB70F7629952C9600BA88CC /* ForgotPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DAC05F5BBA4E642322DAD33 /* Pods-Fish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fish.debug.xcconfig"; path = "Target Support Files/Pods-Fish/Pods-Fish.debug.xcconfig"; sourceTree = "<group>"; };
+		58CEC630BA16CCA868692D5C /* Pods_Fish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1F13152978314A003353E5 /* Fish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1F13182978314A003353E5 /* FishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishApp.swift; sourceTree = "<group>"; };
 		CB1F131A2978314A003353E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB1F131C2978314E003353E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB1F131F2978314E003353E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB1F132929783219003353E5 /* Fetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch.swift; sourceTree = "<group>"; };
+		CBB70F69299523C000BA88CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBB70F6C29952AB100BA88CC /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		CBB70F6E29952AEE00BA88CC /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		CBB70F7029952B8F00BA88CC /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		CBB70F7229952BB200BA88CC /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		CBB70F7429952C7B00BA88CC /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CBB70F7629952C9600BA88CC /* ForgotPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		F0E1C4164B3920BE0C47A21E /* Pods-Fish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fish.release.xcconfig"; path = "Target Support Files/Pods-Fish/Pods-Fish.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81178A7A185028C8821E7710 /* Pods_Fish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACAEF2E1C2F3647961B0A9E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DAC05F5BBA4E642322DAD33 /* Pods-Fish.debug.xcconfig */,
+				F0E1C4164B3920BE0C47A21E /* Pods-Fish.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CAC49FF5A46BA64994A1E814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58CEC630BA16CCA868692D5C /* Pods_Fish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB1F130C2978314A003353E5 = {
 			isa = PBXGroup;
 			children = (
 				CB1F13172978314A003353E5 /* Fish */,
 				CB1F13162978314A003353E5 /* Products */,
+				ACAEF2E1C2F3647961B0A9E6 /* Pods */,
+				CAC49FF5A46BA64994A1E814 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +91,12 @@
 		CB1F13172978314A003353E5 /* Fish */ = {
 			isa = PBXGroup;
 			children = (
+				CBB70F6B29952A9D00BA88CC /* Authentication */,
+				CB1F1328297831F0003353E5 /* Views */,
+				CB1F1327297831EA003353E5 /* Models */,
 				CB1F13182978314A003353E5 /* FishApp.swift */,
-				CB1F131A2978314A003353E5 /* ContentView.swift */,
 				CB1F131C2978314E003353E5 /* Assets.xcassets */,
+				CBB70F69299523C000BA88CC /* GoogleService-Info.plist */,
 				CB1F131E2978314E003353E5 /* Preview Content */,
 			);
 			path = Fish;
@@ -67,6 +110,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CB1F1327297831EA003353E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB1F132929783219003353E5 /* Fetch.swift */,
+				CBB70F6C29952AB100BA88CC /* constants.swift */,
+				CBB70F7229952BB200BA88CC /* UserInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB1F1328297831F0003353E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB1F131A2978314A003353E5 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CBB70F6B29952A9D00BA88CC /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CBB70F7629952C9600BA88CC /* ForgotPassword.swift */,
+				CBB70F6E29952AEE00BA88CC /* AuthenticationView.swift */,
+				CBB70F7029952B8F00BA88CC /* SignUp.swift */,
+				CBB70F7429952C7B00BA88CC /* LoginView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB1F13232978314E003353E5 /* Build configuration list for PBXNativeTarget "Fish" */;
 			buildPhases = (
+				063C42E3F6DDD3592D644E30 /* [CP] Check Pods Manifest.lock */,
 				CB1F13112978314A003353E5 /* Sources */,
 				CB1F13122978314A003353E5 /* Frameworks */,
 				CB1F13132978314A003353E5 /* Resources */,
+				A1D69F0299F7B78C66BB7E2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +200,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB1F13202978314E003353E5 /* Preview Assets.xcassets in Resources */,
+				CBB70F6A299523C000BA88CC /* GoogleService-Info.plist in Resources */,
 				CB1F131D2978314E003353E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		063C42E3F6DDD3592D644E30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D69F0299F7B78C66BB7E2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fish/Pods-Fish-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fish/Pods-Fish-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fish/Pods-Fish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB1F13112978314A003353E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1F132A29783219003353E5 /* Fetch.swift in Sources */,
+				CBB70F7129952B8F00BA88CC /* SignUp.swift in Sources */,
 				CB1F131B2978314A003353E5 /* ContentView.swift in Sources */,
 				CB1F13192978314A003353E5 /* FishApp.swift in Sources */,
+				CBB70F6D29952AB100BA88CC /* constants.swift in Sources */,
+				CBB70F7329952BB200BA88CC /* UserInfo.swift in Sources */,
+				CBB70F7529952C7B00BA88CC /* LoginView.swift in Sources */,
+				CBB70F6F29952AEE00BA88CC /* AuthenticationView.swift in Sources */,
+				CBB70F7729952C9600BA88CC /* ForgotPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +385,7 @@
 		};
 		CB1F13242978314E003353E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DAC05F5BBA4E642322DAD33 /* Pods-Fish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +415,7 @@
 		};
 		CB1F13252978314E003353E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E1C4164B3920BE0C47A21E /* Pods-Fish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
